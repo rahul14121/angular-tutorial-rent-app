@@ -7,6 +7,7 @@ import { HomeComponent } from './home/home.component';
   imports: [
     HomeComponent,
   ],
+  //THe template is putting the header with the logo at the top of the page
   template: `<main>
   <header class="brand-name">
     <img class="brand-logo" src="/assets/logo.svg" alt="logo" aria-hidden="true">

@@ -1,3 +1,5 @@
+//An interface with all the required data listed
+
 export interface HousingLocation {
     id: number;
     name: string;

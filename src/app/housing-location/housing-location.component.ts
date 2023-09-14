@@ -6,6 +6,7 @@ import { HousingLocation } from '../housinglocation';
   selector: 'app-housing-location',
   standalone: true,
   imports: [CommonModule],
+  //This template is holding the layout for each house listed on the site. From here, each house can have the data filled in, and the entire list is looped through with ngFor
   template: `
     <section class="listing">
     <img class="listing-photo" [src]="housingLocation.photo" alt="Exterior photo of {{housingLocation.name}}">
